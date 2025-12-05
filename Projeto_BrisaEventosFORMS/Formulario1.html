@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 01</title>
+
+<style>
+    /* Estilo para o fundo da página */
+        body {
+            background-color: #f4f4f9; /* Cor de fundo suave para a página */
+            font-family: Arial, sans-serif;
+            color: #333; /* Cor do texto */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para o formulário */
+        form {
+            background-color: #ffffff; /* Cor de fundo do formulário */
+            padding: 15px;
+            margin: 50px auto;
+            width: 50%;
+            border-radius: 25px;
+            box-shadow: 0 2px 25px rgba(64, 201, 187, 0.664); /* Sombra suave ao redor do formulário */
+        }
+
+        /* Estilo para o título do formulário */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        /* Estilo para o fieldset */
+        fieldset {
+            border: 2px solid #64d8ec; /* Cor de borda do fieldset */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Estilo para o legend */
+        legend {
+            font-weight: bold;
+            color: #994bff; /* Cor do texto do legend */
+        }
+
+        /* Estilo para os labels */
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* Estilo para os inputs */
+        input[type="text"], input[type="email"], input[type="date"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        /* Estilo para o botão */
+        button {
+            background-color: #9a32ca; /* Cor do fundo do botão */
+            color: rgb(106, 227, 243);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 0px;
+            font-size: 16px;
+            cursor: pointer;
+            width:100%;
+        }
+
+        /* Efeito de hover no botão */
+        button:hover {
+            background-color: #7ac9e9;
+        }
+</style>
+
+</head>
+<body> 
+    <br><h1>Cadastrar cliente</h1>
+
+    <form action="">
+
+    <fieldset>
+
+    <legend><b><h3>✤Dados pessoais</h3></b></legend>
+    <label for="">Nome:</label>
+    <input type="text"><br>
+
+     <br><label for="">CPF:</label>
+    <input type="text"><br>
+    
+    <br><label for="">Data de nascimento:</label>
+    <input type="date"><br>
+
+    <br><label for="">Gênero:</label>
+    <input type="text"><br>
+
+    <br><label for="">Estado civil:</label>
+    <input type="text"><br>
+
+    </fieldset>
+    <fieldset>
+
+    <legend><b><h3>✤Endereço</h3></b></legend>
+    <label for="">CEP:</label>
+    <input type="text">
+
+    <label for="">Logradouro:</label>
+    <input type="text"><br>
+
+    <br><label for="">Nº:</label>
+    <input type="number">
+
+    <label for="">Complemento:</label>
+    <input type="text"><br>
+
+    <br><label for="">Bairro:</label>
+    <input type="text">
+
+    <label for="">Cidade:</label>
+    <input type="text">
+
+    <label for="">Estado:</label>
+    <input type="text"><br>
+
+    </fieldset>
+    <fieldset>
+
+    <legend><b><h3>✤Contatos</h3></b></legend>
+    <label for="">Telefone:</label>
+    <input type="text"><br>
+
+    <br><label for="">E-mail:</label>
+    <input type="email"><br>
+
+    </fieldset>
+
+    <br><button>enviar</button>
+
+    </form>
+
+</body>
+</html>
